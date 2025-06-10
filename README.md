@@ -1,5 +1,5 @@
 # TestDS
 ## this is 2
-### size of tezt 3
+### size of text 3
 
-*italics
+*italics*
