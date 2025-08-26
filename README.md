@@ -46,9 +46,9 @@ Creating a new table in Power BI using the LINEST function produced the statisti
 
 ## References
 -[Jeremy Larcher (Kaggle), 2023, American House Prices](https://www.kaggle.com/datasets/jeremylarcher/american-house-prices-and-demographics-of-top-cities)
+
 -[Microsoft, 2025, Power BI- What is Power BI?](https://www.microsoft.com/en-us/power-platform/products/power-bi/?msockid=0833d1a9557462932946c09c517464ca)
+
 -[Zach Bobbitt, 11th May 2022, A Gentle Guide to Sum of Squares: SST, SSR, SSE](https://www.statology.org/sst-ssr-sse/)
 
--Jeremy Larcher (Kaggle), 2023, American House Prices, American House Prices, Accessed 4th July 2025
--Microsoft, 2025, Power BI- What is Power BI? [Online], Power BI - Data Visualization | Microsoft Power Platform,  Accessed 22nd August 202
--Zach Bobbitt, 11th May 2022, A Gentle Guide to Sum of Squares: SST, SSR, SSE [Online], A Gentle Guide to Sum of Squares: SST, SSR, SSE, Accessed 25th July 2025
+
