@@ -13,7 +13,8 @@ For the project, the data was uploaded to Power BI which is a unified, scalable 
 ## Data Engineering
 From the dataset extracted from Kaggle, the main data points of interest were the areas of living space and the price of houses. Once the data was loaded into Power BI, data quality checks were completed to identify any issues that would impact the analysis. For the living spaces there are large range of areas recorded from 2 to 74340 square foot. Considering the context of the data this would show there are some data quality issues as it is unlikely the living space would be 2 square feet; this shows there are some inaccuracies in the data which reduces the reliability of the dataset. Due the large variation of the data, I added a new DAX column to the Power BI table to round the living space areas to the nearest hundred which helped group the data together when producing the visualisations. Using the new column, a table was produced to show which areas had a low number of records as this helped to identify anomalies and areas with low number of records (Table 1).
 
-![alt text](files/table1.png)
+![alt text](files/Table1.png)
+*Table 1: A section of the table used to identigy anomalies
 
 The dataset does not specify what year(s) the data was from which limits the understanding of the data as if it is based on old house prices it would not provide an accurate reflection of the current cost of houses. Additionally, not all data sources were stated on Kaggle which can reduce the validity of the data depending on where it originated from.
 
@@ -26,10 +27,12 @@ A scatter graph was produced using the the rounded square foot column and the pr
 Using the table to help identify anomlies, properties with an area greater than the 10,000 square foot were filtered out of the graph. By removing this homes, 99.8% of the dataset were still included in the visualisation and by eliminating the anomolies the graph interpreatabilty improved. 
 
 ![alt text](files/graph1.png)
+*Graph 1:Prices of Home by Area rounded to the nearest 100, where area is under 10,000 square feet
 
 Due to the volume of data, it was difficult to interpret the graph and to notice any trends with the prices of houses. To improve the understanding of the data an additional graph was produced using the average sale price of homes for each area interval and a trend line was included to see the relationship between the two variables.  Graph 2 is easier for the end user to understand and provides clearer insights into the data.
 
-![alt text](files/graph2.png)
+![alt text](files/graph3.png)
+*Graph 2: Prices of Home by Area for all homes
 
 ## Data Analysis
 The hypothesis for the project is that the properties would be more expensive the larger the area of the home. By creating a liner regression model this helps to understand the relationship between the two variables.
