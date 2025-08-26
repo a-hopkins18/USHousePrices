@@ -44,8 +44,11 @@ There are anomalies in the data where additional factors need to be taken into c
 Creating a new table in Power BI using the LINEST function produced the statistical information for the data used. It outputs the Regression Sum of Squared and the Residual Sum of Squared, using both of this a new column was added to calculate the R squared value. A value of 0 indicates the response variable cannot be explained by the predictor variable (Zach Bobbitt, 2022) The R squared value for this linear regression is 0.37 which shows that the prices of homes cannot be confidently explained by the area of the living area. To improve the model having a larger dataset would provide a more accurate average to us in the model. As the current model only includes the top 50 cities in the US it does not provide an accurate representation of the whole country, by creating graphs specific to each city or state would help provide more reliable information for each area.
 
 
-##References
+## References
+-[Jeremy Larcher (Kaggle), 2023, American House Prices](https://www.kaggle.com/datasets/jeremylarcher/american-house-prices-and-demographics-of-top-cities)
+-[Microsoft, 2025, Power BI- What is Power BI?](https://www.microsoft.com/en-us/power-platform/products/power-bi/?msockid=0833d1a9557462932946c09c517464ca)
+-[Zach Bobbitt, 11th May 2022, A Gentle Guide to Sum of Squares: SST, SSR, SSE](https://www.statology.org/sst-ssr-sse/)
 
-Jeremy Larcher (Kaggle), 2023, American House Prices, American House Prices, Accessed 4th July 2025
-Microsoft, 2025, Power BI- What is Power BI? [Online], Power BI - Data Visualization | Microsoft Power Platform,  Accessed 22nd August 2025
-Zach Bobbitt, 11th May 2022, A Gentle Guide to Sum of Squares: SST, SSR, SSE [Online], A Gentle Guide to Sum of Squares: SST, SSR, SSE, Accessed 25th July 2025
+-Jeremy Larcher (Kaggle), 2023, American House Prices, American House Prices, Accessed 4th July 2025
+-Microsoft, 2025, Power BI- What is Power BI? [Online], Power BI - Data Visualization | Microsoft Power Platform,  Accessed 22nd August 202
+-Zach Bobbitt, 11th May 2022, A Gentle Guide to Sum of Squares: SST, SSR, SSE [Online], A Gentle Guide to Sum of Squares: SST, SSR, SSE, Accessed 25th July 2025
